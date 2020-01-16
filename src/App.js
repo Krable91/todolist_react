@@ -12,7 +12,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <section>
+      <section className="appSection">
         <div className="header">
           <div>
             <Clock format={`YYYY년MM월DD일 HH시mm분ss초`} ticking={true} timezone={`Asia/Seoul`}/>

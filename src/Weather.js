@@ -48,7 +48,7 @@ class Weather extends React.Component {
         } else {
             const parseCoords = JSON.parse(loadedCoords);
             console.log(parseCoords);
-            this.getWeather(parseCoords.latitude, parseCoords. longitude);
+            this.getWeather(parseCoords.latitude, parseCoords.longitude);
                 //getWeather();
         }
     }
